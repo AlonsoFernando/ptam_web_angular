@@ -1,0 +1,20 @@
+.table1-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  position: relative;
+}
+
+.table2-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.tab-estado-conservacao {
+  margin: 0;
+  position: absolute;
+  top: 57%;
+  left: 59.2%;
+}

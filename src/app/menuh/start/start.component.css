@@ -1,0 +1,42 @@
+.law {
+  font-size: large;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 15px;
+  }
+
+form {
+  display: grid;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 6px;
+  border: 1px solid rgb(177, 177, 177);
+  box-shadow: 5px 5px 5px #999;
+}
+
+label {
+  font-size: large;
+}
+
+.avatar {
+  width: 745px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}

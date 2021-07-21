@@ -1,0 +1,23 @@
+<p class="law">Conforme Lei nº 6530/78, Resolução COFECI nº 1066/07 e Ato Normativo COFECI nº 001/11</p>
+
+<form>
+  <label for="property">Imóvel Avaliando</label>
+  <textarea class="form-control" id="property" rows="3" cols="100" wrap="hard">Informe o tipo e a localização</textarea>
+</form>
+
+<form>
+  <label for="goal">Finalidade do Parecer</label>
+  <textarea class="form-control" id="goal" rows="3" cols="100" wrap="hard">Informe a finalidade do parecer</textarea>
+</form>
+
+<form>
+  <label for="interested">Interessado</label>
+  <textarea class="form-control" id="interested" rows="3" cols="100" wrap="hard">Informe o destinatário</textarea>
+</form>
+
+<form>
+  <label class="avatar" for="avatar">Adicione a imagem da fachada do Imóvel</label>
+  <input #file type="file" accept='image/*' (change)="preview(file.files)" /><br>
+  <img class="image" [src]="imgURL" height="400" *ngIf="imgURL">
+  <span style="color:red;" *ngIf="message">{{message}}</span>
+</form>

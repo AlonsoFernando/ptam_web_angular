@@ -1,0 +1,126 @@
+<mat-tab-group class="mat-tab-group" dynamicHeight animationDuration="1100ms" mat-align-tabs="center">
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="back">keyboard_arrow_up</mat-icon>
+    </ng-template>
+  </mat-tab>
+
+  <mat-tab label="Sobre">
+    <app-about></app-about>
+  </mat-tab>
+
+  <mat-tab label="Tabelas">
+    <app-tables></app-tables>
+  </mat-tab>
+
+  <mat-tab label="Abreviaturas">
+    <app-abrev></app-abrev>
+  </mat-tab>
+
+  <mat-tab label="ABNT/NBR">
+    <app-abnt></app-abnt>
+  </mat-tab>
+
+  <mat-tab label="Contato">
+    <app-contact></app-contact>
+  </mat-tab>
+</mat-tab-group>
+
+<mat-tab-group class="mat-tab-group1" dynamicHeight animationDuration="1100ms" mat-align-tabs="center">
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="back">keyboard_arrow_up</mat-icon>
+    </ng-template>
+  </mat-tab>
+
+  <mat-tab label="Início">
+    <app-start></app-start>
+  </mat-tab>
+
+  <mat-tab label="Solicitante">
+    <app-requester></app-requester>
+  </mat-tab>
+
+  <mat-tab label="Finalidade">
+    <app-goal></app-goal>
+  </mat-tab>
+
+  <mat-tab label="Imóvel Avaliando">
+    <app-property></app-property>
+  </mat-tab>
+
+  <mat-tab label="Vistoria">
+    <app-inspection></app-inspection>
+  </mat-tab>
+
+  <mat-tab label="Descrição do Imóvel">
+    <app-description></app-description>
+  </mat-tab>
+</mat-tab-group>
+
+<mat-tab-group class="mat-tab-group2" dynamicHeight animationDuration="1100ms" mat-align-tabs="center">
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="back">keyboard_arrow_up</mat-icon>
+    </ng-template>
+  </mat-tab>
+
+  <mat-tab label="Registro Fotográfico">
+    <app-record-photo></app-record-photo>
+  </mat-tab>
+
+  <mat-tab label="Caracteristicas Regionais">
+    <app-regional-features></app-regional-features>
+  </mat-tab>
+
+  <mat-tab label="Confrontações">
+    <app-confrontations></app-confrontations>
+  </mat-tab>
+
+  <mat-tab label="Vista Aérea">
+    <app-aerial-view></app-aerial-view>
+  </mat-tab>
+
+  <mat-tab label="Metodologia">
+    <app-methodology></app-methodology>
+  </mat-tab>
+</mat-tab-group>
+
+
+<mat-tab-group class="mat-tab-group3" dynamicHeight animationDuration="1100ms" mat-align-tabs="center">
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="back">keyboard_arrow_up</mat-icon>
+    </ng-template>
+  </mat-tab>
+
+  <mat-tab label="Imóveis Referenciais">
+    <app-referential-properties></app-referential-properties>
+  </mat-tab>
+
+  <mat-tab label="Adequações">
+    <app-adaptations></app-adaptations>
+  </mat-tab>
+
+  <mat-tab label="Gráficos Comparativos">
+    <app-graphics></app-graphics>
+  </mat-tab>
+
+  <mat-tab label="Notas">
+    <app-note></app-note>
+  </mat-tab>
+
+  <mat-tab label="Conclusão">
+    <app-conclusion></app-conclusion>
+  </mat-tab>
+</mat-tab-group>
+
+<section>
+  <main class="container">
+    <router-outlet></router-outlet>
+  </main>
+</section>

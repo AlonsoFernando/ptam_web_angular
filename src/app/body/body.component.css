@@ -1,0 +1,8 @@
+.background {
+  background: linear-gradient(rgba(243, 241, 96, 0.507), rgba(248, 179, 99, 0.507) 100%),
+    url(../../assets/images/background.jpg);
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  opacity: 90%;
+}

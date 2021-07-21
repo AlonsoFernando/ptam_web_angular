@@ -1,0 +1,20 @@
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 10px;
+  font-size: large;
+  height: 50px;
+  background-color: rgba(222, 238, 3, 0.411);
+  align-items: center;
+}
+.in {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.git {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
